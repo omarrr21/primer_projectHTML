@@ -1,0 +1,25 @@
+#myid {
+  color: red
+}
+.myclass{
+  color:blue
+}
+.back_class{
+background-color: yellow
+}
+h1+h2{
+color: blue
+}
+p,h3{
+  color: green
+}
+[href]{
+color: red;
+  border:2px solid black
+}
+input{
+box-shadow: 3px 3px 2px yellow
+}
+h1:hover{
+  color: yellow
+}

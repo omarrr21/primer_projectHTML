@@ -1,25 +1,47 @@
-#myid {
-  color: red
+.flex-container{
+  width:750px;
+  height: 600px;
+  border: solid green 2px;
+  display: flex;
+flex-wrap: wrap;
+
+align-items: center;
 }
-.myclass{
-  color:blue
+.box1{
+  border: solid black;width:120px;height: 65px;
+  background-color: lightblue;
+margin-top: 20px;
+margin-left: 20px;
+
 }
-.back_class{
-background-color: yellow
+.box2{
+  border: solid black;width:120px;height: 100px;
+  background-color: red;
+margin-top: 20px;
+margin-left: 20px;
+
 }
-h1+h2{
-color: blue
+.box3{
+  border: solid black;width:120px;height: 65px;
+  background-color: lightblue;
+margin-top: 20px;
+margin-left: 20px;
+
 }
-p,h3{
-  color: green
+.box4{
+  border: solid black;width:120px;height: 100px;
+  background-color: red;
+margin-top: 20px;
+margin-left: 20px;
+
 }
-[href]{
-color: red;
-  border:2px solid black
+.box5{
+  border: solid black;width:120px;height: 65px;
+  background-color: lightblue;
+margin-top: 20px;
+margin-left: 20px;
+
 }
-input{
-box-shadow: 3px 3px 2px yellow
-}
-h1:hover{
-  color: yellow
+body{
+  background-color: yellow
 }
