@@ -1,0 +1,36 @@
+*{
+  margin: 0
+}
+.container{
+height:100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+
+}
+.class1 div{
+border: 1px solid black
+}
+.class1{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-column-gap: 0.5em;
+grid-row-gap: 0.4em;
+  background-color: coral;
+}
+.class2{
+  background-color: green;
+}
+.class3{
+  background-color: gold;
+}
+.class4{
+  background-color: moccasin;
+}
+.class5{
+  background-color: orange;
+}
+.class6{
+  background-color: red;
+}

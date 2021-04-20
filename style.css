@@ -2,35 +2,42 @@
   margin: 0
 }
 .container{
+  text-align: center;
 height:100vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 0.1fr 1.5fr 0.8fr 0.1fr;
+grid-template-areas: 
+"nav nav nav nav"
+"sidebar main main main"
+"sidebar content1 content2 content3"
+"sidebar footer footer footer"
 }
-.class1 div{
-border: 1px solid black
+.nav{
+grid-area: nav;
+  background-color: lightblue
 }
-.class1{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-grid-column-gap: 0.5em;
-grid-row-gap: 0.4em;
-  background-color: coral;
+.main{
+  grid-area: main;
+  background-color: red
 }
-.class2{
-  background-color: green;
+.sidebar{
+  grid-area: sidebar;
+  background-color: coral
 }
-.class3{
-  background-color: gold;
+.content1{
+  grid-area: content1;
+  background-color: lightgreen
 }
-.class4{
-  background-color: moccasin;
+.content2{
+  grid-area: content2;
+  background-color: lightpink
 }
-.class5{
-  background-color: orange;
+.content3{
+  grid-area: content3;
+  background-color: gold
 }
-.class6{
-  background-color: red;
+.footer{
+  grid-area: footer;
+  background-color: green
 }
