@@ -1,47 +1,36 @@
-.flex-container{
-  width:750px;
-  height: 600px;
-  border: solid green 2px;
-  display: flex;
-flex-wrap: wrap;
-
-align-items: center;
+*{
+  margin: 0
 }
-.box1{
-  border: solid black;width:120px;height: 65px;
-  background-color: lightblue;
-margin-top: 20px;
-margin-left: 20px;
+.container{
+height:100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
 
 }
-.box2{
-  border: solid black;width:120px;height: 100px;
+.class1 div{
+border: 1px solid black
+}
+.class1{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-column-gap: 0.5em;
+grid-row-gap: 0.4em;
+  background-color: coral;
+}
+.class2{
+  background-color: green;
+}
+.class3{
+  background-color: gold;
+}
+.class4{
+  background-color: moccasin;
+}
+.class5{
+  background-color: orange;
+}
+.class6{
   background-color: red;
-margin-top: 20px;
-margin-left: 20px;
-
-}
-.box3{
-  border: solid black;width:120px;height: 65px;
-  background-color: lightblue;
-margin-top: 20px;
-margin-left: 20px;
-
-}
-.box4{
-  border: solid black;width:120px;height: 100px;
-  background-color: red;
-margin-top: 20px;
-margin-left: 20px;
-
-}
-.box5{
-  border: solid black;width:120px;height: 65px;
-  background-color: lightblue;
-margin-top: 20px;
-margin-left: 20px;
-
-}
-body{
-  background-color: yellow
 }
